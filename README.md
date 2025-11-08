@@ -13,12 +13,14 @@ Zawierają cechy chemiczne win czerwonych i białych oraz ich ocenę jakości.
 - **`winequality.names.csv`** → Opis kolumn  
 
 ## 🛠 Instalacja
+
 Aby uruchomić projekt, zainstaluj wymagane biblioteki:
 ```bash
 pip install pandas numpy scikit-learn matplotlib
 
+```
 
-📈 Wyniki
+## 📈 Wyniki
 
 Model drzewa decyzyjnego osiąga ~80% dokładności w przewidywaniu jakości wina.
 
