@@ -45,9 +45,9 @@ print('Test accuracy: %.2f%%' % (clf.score(x_test, y_test) * 100))
 
 plt.figure(figsize=(15,10))
 plot_tree(clf,
-          filled=True,
-          rounded=True,
-          class_names=['Class 0', 'Class 1', 'Class 2'],
-          feature_names=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density' , 'pH' , 'sulphates', 'alcohol', 'quality', 'color'])
+        filled=True,
+        rounded=True,
+        class_names=['Class 0', 'Class 1', 'Class 2'],
+        feature_names=['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar', 'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density' , 'pH' , 'sulphates', 'alcohol', 'quality', 'color'])
 plt.title('Wine quality - Decision Tree / classification')
 plt.show()
