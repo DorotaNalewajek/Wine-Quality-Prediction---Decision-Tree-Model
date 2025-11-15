@@ -6,13 +6,12 @@ The repo contains **two classic ML models**:
 - 🌳 **Decision Tree Classifier**
 - 🤝 **k-Nearest Neighbours (k-NN)**
 
-Goal: practise the full ML workflow on a real dataset – from loading CSVs to evaluating and comparing models.
+## Goal: practise the full ML workflow on a real dataset – from loading CSVs to evaluating and comparing models.
 
 ---
 
 ## 📁 Project Structure
 
-```text
 wine_quality_machine_learning/
 ├── decision_tree/
 │   └── wine_quality_decisiontree_load_from.py   # Decision Tree model
@@ -26,7 +25,6 @@ wine_quality_machine_learning/
 ├── .gitignore
 └── README.md
 
-```
 
 ## 📊 Data Description
 
@@ -43,7 +41,7 @@ All CSV files live in wine_quality_data/data/.
 	•	Python 3.10+
 	•	Recommended packages:
 	
-```python
+```
 pip install numpy pandas scikit-learn matplotlib
 ```
 
@@ -56,7 +54,6 @@ cd decision_tree
 python wine_quality_decisiontree_load_from.py
 
 ```
-
 
 ## The script:
 	1.	Loads data from ../wine_quality_data/data/.
