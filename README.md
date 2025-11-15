@@ -37,6 +37,8 @@ Each row describes one wine sample with features such as:
 
 All CSV files live in wine_quality_data/data/.
 
+----
+
 ## ⚙️ Requirements
 	•	Python 3.10+
 	•	Recommended packages:
@@ -54,6 +56,8 @@ cd decision_tree
 python wine_quality_decisiontree_load_from.py
 
 ```
+
+---
 
 ## The script:
 	1.	Loads data from ../wine_quality_data/data/.
