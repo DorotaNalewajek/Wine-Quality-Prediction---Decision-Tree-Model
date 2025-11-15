@@ -41,7 +41,7 @@ All CSV files live in wine_quality_data/data/.
 	•	Python 3.10+
 	•	Recommended packages:
 	
-```
+```python
 pip install numpy pandas scikit-learn matplotlib
 ```
 
