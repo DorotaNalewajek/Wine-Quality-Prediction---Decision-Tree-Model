@@ -54,7 +54,9 @@ pip install numpy pandas scikit-learn matplotlib
 ```python
 cd decision_tree
 python wine_quality_decisiontree_load_from.py
+
 ```
+
 
 ## The script:
 	1.	Loads data from ../wine_quality_data/data/.
@@ -84,7 +86,7 @@ Exact numbers may vary between runs (random train/test split).
 
 ⸻
 
-🎯 What I Practised Here
+## 🎯 What I Practised Here
 	•	Working with real CSV data in Python.
 	•	Building a full ML pipeline with scikit-learn:
 	•	loading → preprocessing → training → evaluation → visualisation.
@@ -94,7 +96,7 @@ Exact numbers may vary between runs (random train/test split).
 	•	clear folder structure for data and models,
 	•	readable, beginner-friendly code layout.
 
-🚀 Possible Next Steps
+## 🚀 Possible Next Steps
 	•	Add hyperparameter search (GridSearchCV / RandomizedSearchCV).
 	•	Use cross-validation instead of a single train/test split.
 	•	Add more visualisations (confusion matrix, feature importance).
@@ -103,7 +105,7 @@ Exact numbers may vary between runs (random train/test split).
 
 ⸻
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Dorota Nalewajek – future AI / ML developer & wine-quality detective 🍷🤖
 
