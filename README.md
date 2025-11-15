@@ -41,12 +41,13 @@ All CSV files live in wine_quality_data/data/.
 
 ## ⚙️ Requirements
 
-	•	Python 3.10+
-	•	Recommended packages:
-	
+- Python **3.10+**
+- Recommended packages: `numpy`, `pandas`, `scikit-learn`, `matplotlib`
+
+Install them (once) with:
+
 ```bash
 pip install numpy pandas scikit-learn matplotlib
-```
 
 ### ▶️ How to Run
 
