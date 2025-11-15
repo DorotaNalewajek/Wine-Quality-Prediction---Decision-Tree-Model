@@ -44,10 +44,11 @@ All CSV files live in wine_quality_data/data/.
 - Python **3.10+**
 - Recommended packages: `numpy`, `pandas`, `scikit-learn`, `matplotlib`
 
-## Install them (once) with:
+Install them (once) with:
 
 ```bash
 pip install numpy pandas scikit-learn matplotlib
+```
 
 ### ▶️ How to Run
 
@@ -59,7 +60,7 @@ python wine_quality_decisiontree_load_from.py
 ```
 ---
 
-## The script:
+#### The script:
 	1.	Loads data from ../wine_quality_data/data/.
 	2.	Splits it into train / test sets.
 	3.	Trains a DecisionTreeClassifier.
