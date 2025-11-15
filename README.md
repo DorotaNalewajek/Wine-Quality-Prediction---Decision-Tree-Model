@@ -40,6 +40,7 @@ All CSV files live in wine_quality_data/data/.
 ----
 
 ## ⚙️ Requirements
+
 	•	Python 3.10+
 	•	Recommended packages:
 	
@@ -54,7 +55,6 @@ pip install numpy pandas scikit-learn matplotlib
 ```bash
 cd decision_tree
 python wine_quality_decisiontree_load_from.py
-
 ```
 ---
 
