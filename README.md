@@ -43,7 +43,7 @@ All CSV files live in wine_quality_data/data/.
 	•	Python 3.10+
 	•	Recommended packages:
 	
-```python
+```bash
 pip install numpy pandas scikit-learn matplotlib
 ```
 
@@ -51,12 +51,11 @@ pip install numpy pandas scikit-learn matplotlib
 
 ## 1️⃣ Decision Tree model (🌳)
 
-```python
+```bash
 cd decision_tree
 python wine_quality_decisiontree_load_from.py
 
 ```
-
 ---
 
 ## The script:
@@ -70,7 +69,7 @@ python wine_quality_decisiontree_load_from.py
 
 ## 2️⃣ k-Nearest Neighbours model (🤝)
 
-```python
+```bash
 cd knn
 python winequality_knn_model.py
 ```
@@ -79,7 +78,8 @@ python winequality_knn_model.py
 
 The main focus is learning, not leaderboard scores – models are only lightly tuned.
 
-In my experiments:
+
+## In my experiments:
 	•	🌳 Decision Tree: around ~80% test accuracy
 	•	🤝 k-NN: similar accuracy, depending on k and scaling
 
