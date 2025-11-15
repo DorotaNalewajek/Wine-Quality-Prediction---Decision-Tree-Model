@@ -57,7 +57,7 @@ pip install numpy pandas scikit-learn matplotlib
 ```bash
 cd decision_tree
 python wine_quality_decisiontree_load_from.py
-
+```
 
 ##  - The script:
 	1.	Loads data from ../wine_quality_data/data/.
