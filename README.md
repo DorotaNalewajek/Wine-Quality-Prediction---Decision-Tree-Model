@@ -26,7 +26,7 @@ wine_quality_machine_learning/
 ├── .gitignore
 └── README.md
 
-
+```
 
 ## 📊 Data Description
 
@@ -39,20 +39,24 @@ Each row describes one wine sample with features such as:
 
 All CSV files live in wine_quality_data/data/.
 
-⚙️ Requirements
+## ⚙️ Requirements
 	•	Python 3.10+
 	•	Recommended packages:
-
+	
+```python
 pip install numpy pandas scikit-learn matplotlib
+```
 
-▶️ How to Run
+### ▶️ How to Run
 
-1️⃣ Decision Tree model (🌳)
+## 1️⃣ Decision Tree model (🌳)
 
+```python
 cd decision_tree
 python wine_quality_decisiontree_load_from.py
+```
 
-The script:
+## The script:
 	1.	Loads data from ../wine_quality_data/data/.
 	2.	Splits it into train / test sets.
 	3.	Trains a DecisionTreeClassifier.
@@ -61,12 +65,14 @@ The script:
 
 ⸻
 
-2️⃣ k-Nearest Neighbours model (🤝)
+## 2️⃣ k-Nearest Neighbours model (🤝)
 
+```python
 cd knn
 python winequality_knn_model.py
+```
 
-📈 Results – High Level
+## 📈 Results – High Level
 
 The main focus is learning, not leaderboard scores – models are only lightly tuned.
 
