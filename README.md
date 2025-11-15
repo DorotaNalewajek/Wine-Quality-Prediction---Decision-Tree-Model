@@ -50,7 +50,7 @@ Install them (once) with:
 pip install numpy pandas scikit-learn matplotlib
 ```
 
-### ▶️ How to Run
+# ▶️ How to Run
 
 ## 1️⃣ Decision Tree model (🌳)
 
